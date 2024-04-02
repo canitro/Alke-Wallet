@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-04-02T18:00:59.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xX752B9oKAfCoI2n8W88" version="24.2.1" type="device">
+  <diagram name="Página-1" id="Q2SRfrDhT_G3TeXJdsaf">
+    <mxGraphModel dx="1400" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8cGF_H6vULqDvn5Xjqt1-14" target="8cGF_H6vULqDvn5Xjqt1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-14" value="- Nombre: String&lt;div&gt;- TipoCambio: Double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;================================&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Implementar los métodos de la interfaz moneda&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8cGF_H6vULqDvn5Xjqt1-12" target="8cGF_H6vULqDvn5Xjqt1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-12" value="- Nombre:String&lt;div&gt;- TipoCambio:double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;================================&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Implementar los métodos de la interfaz moneda&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="23" y="150" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-9" value="- Nombre: String&lt;div&gt;- Tipo Cambio: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Getnombre(): String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ Setnombre(String): void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ Gettipocambio():double&lt;/div&gt;&lt;div&gt;+ SetTipocambio(double):Void&lt;/div&gt;&lt;div&gt;+ Convertir(double,moneda):double&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="481" width="207" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8cGF_H6vULqDvn5Xjqt1-9" target="8cGF_H6vULqDvn5Xjqt1-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-1" value="Moneda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="460" width="207" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-3" value="Euro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-5" value="Dolar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="140" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8cGF_H6vULqDvn5Xjqt1-16" target="8cGF_H6vULqDvn5Xjqt1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;- Titular: String&lt;div&gt;- NumeroCuenta: Int&lt;/div&gt;&lt;div&gt;- Saldo: double&lt;/div&gt;&lt;div&gt;- Moneda: moneda&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;================================&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Depositar(double): void&lt;/div&gt;&lt;div&gt;+ Retirar(double): void&lt;/div&gt;&lt;div&gt;+ ObtenerInformacion(): void&lt;/div&gt;&lt;div&gt;+ ConvertirSaldo(moneda,double): double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="573" y="150" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-17" value="CuentaBancaria" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="140" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-18" value="+ Main(String[]): void" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610.75" y="470" width="154.5" height="154.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="8cGF_H6vULqDvn5Xjqt1-18" target="8cGF_H6vULqDvn5Xjqt1-18" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592.75" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-20" value="Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610.75" y="460" width="154.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8cGF_H6vULqDvn5Xjqt1-27" target="8cGF_H6vULqDvn5Xjqt1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8cGF_H6vULqDvn5Xjqt1-27" target="8cGF_H6vULqDvn5Xjqt1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-27" value="Clases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8cGF_H6vULqDvn5Xjqt1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8cGF_H6vULqDvn5Xjqt1-27" target="8cGF_H6vULqDvn5Xjqt1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
